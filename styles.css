@@ -1,0 +1,62 @@
+#container 
+   {display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+
+#one 
+   {grid-column-start: 1;
+   grid-column-end: 1;
+   background-color: blue;}
+
+#two 
+   {grid-column-start: 2;
+   grid-column-end: 2;
+   background-color: red;}
+
+#three 
+   {grid-column: 3 / 3;
+   background-color: green;}
+
+#four 
+   {grid-column: 4 / 4;
+   background-color: yellow;}
+
+#five 
+   {grid-column: 5 / 5;
+   background-color: cyan;}
+#six 
+   {grid-column: 6 / 6;
+   background-color: lightgreen;}
+#seven 
+   {grid-column: 7 / 7;
+   background-color: purple;}
+
+
+#rows 
+   {display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: 4em 10em max-content;}
+
+
+#content-1 
+   {grid-column-start: 2;
+   grid-column-end: 12;
+   height: 768%;
+   background-color: #00747F;}
+
+#content-2 
+   {grid-column-start: 2;
+   grid-column-end: 12;
+   height: 768px;
+   background-color: #00E8FF;}
+
+#content-3 
+   {grid-column-start: 2;
+   grid-column-end: 12;
+   height: 768px;
+   background-color: #003A40;}
+
+#footer 
+   {grid-column-start: 2;
+   grid-column-end: 12;
+   height:100px;
+   background-color: cyan;}
